@@ -60,6 +60,8 @@ h2.title {
   font-size: 200%;  
   font-decoration: none;
   font-weight: normal;
+  letter-spacing: 120%;
+  color: #ccc;
 }  
 
 .excerpt {
