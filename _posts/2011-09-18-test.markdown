@@ -1,0 +1,17 @@
+---
+layout: post
+title: Test
+categories:
+ - about
+---
+
+I am the first mind.
+
+This a test of my new broadcasting system.
+
+I will find others. Like-minded and different, absurd and serious.
+
+We will encourage using pragmatic tools for spreading mindfulness.
+
+We will make source code for projects and raw assets available here.
+

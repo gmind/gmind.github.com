@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+---
+
+
+
+<ul id="archive">
+{% for post in site.posts limit:7 %}
+{% include post.html %}
+{% endfor %}
+</ul>
+
+<p>
+All SVG files should be editable with <a href="http://inkscape.org/">Inkscape</a>. It's open!
+</p>
+
+<p>
+Use pull requests to contribute or <a href="https://github.com/gmind">message gmind on github</a> for feedback.
+</p>
+

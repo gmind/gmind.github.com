@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="/atom.xml" rel="alternate" title="{{ site.sitename }} - {{ site.tagline }}" type="application/atom+xml" />
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/main.css">
+  <!--[if lt IE 9]>
+  <script src="/js/html5shiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+  <title>{{ site.sitename }} - {% if page.title != 'Home' %}{{ page.title }}{% else %}{{ site.tagline }}{% endif %}</title>
+	<meta name="description" content="Guerilla Mindfulness Front">
+</head>
+<body class="{{ page.style }}">
+
+
+<header id="top">
+  <hgroup>
+  <div class="links">
+    <a href="/about.html">about</a>
+    |
+    <a href="/downloads.html">downloads</a>
+  </div>
+  <h1 class="awesome"><a href="/">{{ site.sitename }}</a></h1>
+  <h2 class="title">
+    {% if page.title == 'Home' %}
+      {{ site.tagline }}
+    {% else %}
+      {% if page.date %}
+        <time datetime="{{ page.date }}" pubdate>{{ page.date | date: "%Y%m%d" }}</time>
+      {% endif %}
+      <a href="{{page.url}}">{{ page.title }}</a>
+    {% endif %}
+  </h2>
+  </hgroup>
+</header>
+
+<article class="default">
+{{ content }}
+</article>
+
+<footer>
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" /></a>
+  To the extent possible under law, <a rel="dct:publisher" href="http://gmind.github.com"> <span property="dct:title">GMF</span></a> has waived all copyright and related or neighboring rights to all content created by the <span property="dct:title">Guerilla Mindfulness Front</span>.
+</p>
+</footer>
+
+</body>
+</html>

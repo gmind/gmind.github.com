@@ -1,0 +1,11 @@
+---
+layout: default
+title: All posts
+---
+
+<ul id="archive">
+{% for post in site.posts %}
+{% include post.html %}
+{% endfor %}
+</ul>
+

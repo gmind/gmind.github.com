@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<hr/>
+
+<div class="categories">
+  categories: 
+  {% for x in page.categories %}
+    {% if x == 'art' or x == 'photo' or x == 'writing' or x == 365 or x == 'music' %}
+      <a href="/{{x}}.html">{{x}}</a>
+    {% else %}
+      {{x}}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<nav class="pagination">
+  <ul>
+  {% if page.previous %}
+    <li class="left"><a rel="prev" href="{{ page.previous.url }}" class="btn" title="to {{ page.previous.title }}">Earlier</a>
+  {% endif %}
+  {% if page.next %}
+    <li class="right"><a rel="next" href="{{ page.next.url }}" class="btn" title="to {{ page.next.title }}">Later</a></li>
+  {% endif %}
+  </ul>
+</nav>
+

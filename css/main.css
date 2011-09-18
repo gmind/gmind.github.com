@@ -1,0 +1,142 @@
+header, footer, aside, nav, article {  
+  display: block;  
+}  
+
+body {  
+  margin: 3em;
+  font: 14px Arial, sans-serif;  
+}  
+
+h1 {  
+  font-size: 36px;  
+  padding: 0.5em 0;  
+}  
+
+h2 {  
+  font-size: 20px;  
+  padding: 0.4em 0;  
+}  
+
+h3 {  
+  font-size: 18px;  
+  padding: 0.3em 0;  
+}  
+
+p {  
+  padding: 0.5em 0;  
+}  
+
+footer {
+  border-top: 1px solid #555;
+  padding-top: 1em;
+  font-size: 60%;
+}
+
+body > header {
+  padding: 1em;
+}
+
+#top a:link, #top a:visited, #top a:hover,
+footer a:link, footer a:visited, footer a:hover {
+  border-bottom: none;
+}
+
+
+#top time {
+  color: #888;
+}
+
+#top .links {
+  text-align: right;
+}
+
+
+h1.awesome {  
+  font-size: 200%;  
+}  
+
+h2.title {  
+  display: inline;
+  font-size: 200%;  
+  font-decoration: none;
+  font-weight: normal;
+}  
+
+.excerpt {
+  font-style: italic;
+  font-size: 80%;
+  margin-left: 6em;
+}
+
+
+.left {
+  *display: inline;
+  float: left;
+}
+.right {
+  *display: inline;
+  float: right;
+}
+
+
+.pagination {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.pagination ul { list-style: none; }
+
+.btn {
+  display: inline-block;
+  border: 1px solid #000;
+  background: #ccd; /* old browsers */
+  background: -moz-linear-gradient(top, #dde 0%, #bbc 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dde), color-stop(100%,#bbc)); /* webkit */
+  padding: 3px 0;
+  text-align: center;
+  width: 60px;
+}
+.btn:link {
+  border-bottom: 1px solid #000;
+}
+.btn:visited {
+  border-bottom: 1px solid #000;
+}
+.btn:hover {
+  background: -moz-linear-gradient(top, #eef 0%, #dde 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eef), color-stop(100%,#dde)); /* webkit */
+}
+
+
+.categories {
+  clear: both;
+  color: #888;
+}
+
+a:link {
+  color: #443;
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+}
+a:visited {
+  color: #665;
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+}
+a:hover {
+  color: #a83;
+  text-decoration: none;
+  border-bottom: 1px solid #00f;
+}
+
+
+article.default { padding: 2em; }
+
+article ul { list-style: square; }
+article ol { list-style: decimal; }
+article img { padding: 4px; }
+article img.left { float: left; margin-right: 12px; }
+article img.right { float: right; margin-left: 12px; }
+
+a.photo:link, a.photo:visited, a.photo:hover { border: none; }
+

@@ -1,0 +1,8 @@
+#Presentation Settings
+sitename: Guerilla Mindfulness Front
+tagline: Be More Aware
+url: http://gmind.github.com
+#Deployment Settings
+pygments:    true
+markdown:    maruku
+permalink: "/:year/:month/:day/:title"
