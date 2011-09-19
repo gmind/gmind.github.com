@@ -4,7 +4,7 @@ header, footer, aside, nav, article {
 
 body {  
   margin: 3em;
-  font: 14px Arial, sans-serif;  
+  font: 16px Arial, sans-serif;  
 }  
 
 h1 {  
@@ -13,12 +13,12 @@ h1 {
 }  
 
 h2 {  
-  font-size: 20px;  
+  font-size: 28px;  
   padding: 0.4em 0;  
 }  
 
 h3 {  
-  font-size: 18px;  
+  font-size: 22px;  
   padding: 0.3em 0;  
 }  
 

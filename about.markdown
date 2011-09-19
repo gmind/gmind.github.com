@@ -3,6 +3,9 @@ layout: default
 title: About
 ---
 
+Take 15 minutes a day to just breathe. We dare you.
+
+<hr/>
 
 The Guerilla Mindfulness Front is an anonymous group of pragmatic realists who 
 want to improve the world around them by reducing suffering.
