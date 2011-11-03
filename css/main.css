@@ -116,19 +116,19 @@ h2.title {
 }
 
 a:link {
-  color: #443;
+  color: #900;
   text-decoration: none;
   border-bottom: 1px dotted #aaa;
 }
 a:visited {
-  color: #665;
+  color: #600;
   text-decoration: none;
   border-bottom: 1px dotted #aaa;
 }
 a:hover {
-  color: #a83;
+  color: #900;
   text-decoration: none;
-  border-bottom: 1px solid #00f;
+  border-bottom: 1px solid #f00;
 }
 
 

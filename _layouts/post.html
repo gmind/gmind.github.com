@@ -9,7 +9,7 @@ layout: default
 <div class="categories">
   categories: 
   {% for x in page.categories %}
-    {% if x == 'art' or x == 'photo' or x == 'writing' or x == 365 or x == 'music' %}
+    {% if x == 'flyer' or x == 'card' %}
       <a href="/{{x}}.html">{{x}}</a>
     {% else %}
       {{x}}

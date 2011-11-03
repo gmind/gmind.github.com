@@ -3,10 +3,26 @@ layout: default
 title: Howto
 ---
 
+# Getting the source files
+
+If you're not git-savvy, don't worry. Just [grab a zip file with all of them](https://github.com/gmind/Documents/zipball/master).
+
+If you know github, or you want to learn a little git, you can clone this repository and fork it, making your own changes and improvements. YES!
+
+
+# Viewing, editing, printing
+
+Use [Inkscape](http://inkscape.org/) to open the SVG files. 
+
+Use the Layers dialog (Layer - Layers...) to show and hide the different options.
+
+(We are working to automatically produce PDFs for easier printing.)
+
+
 # Flyers
 
 Printing the black and white flyers is straightforward. If you use the "TAKE A 
-BREATH" variants with the tear-off strips, just cut between them. Obviously.
+BREATH" variants with the tear-off strips, just cut between them.
 
 If placing in outdoor areas, you should use a laser printer or a copier, 
 because inkjet pages will run in the rain. (You could also laminate flyers for
@@ -18,6 +34,17 @@ part easier (buy long staples), and tape guns make the second part easier.
 
 Where to put them, you ask? On kiosks, flyer walls, bulletin boards, with band 
 posters, wherever people might see them.
+
+
+# Magnet/Sticker Strips
+
+Stickers are a little destructive, depending on where you put them.
+
+Magnets though - those work great for attaching to lots of metal objects non-permanently!
+
+Inkjet printers can print on sticker sheets or magnet sheets.
+
+Just cut between the strips!
 
 
 # Cards
